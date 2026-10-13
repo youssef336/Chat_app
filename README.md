@@ -10,6 +10,11 @@
   <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-3DDC84?style=for-the-badge" alt="Android | iOS" />
 </p>
 
+<p align="center">
+  <img src="docs/screens.jpg" alt="Screens" width="100%"/>
+  <br/><sub>Login · Register · Chat</sub>
+</p>
+
 ## 📖 About
 
 Scholar Chat is a real-time chat room built while learning Firebase and state management in Flutter. Users register or log in with email and password, then join a shared room where messages stream live from **Cloud Firestore**. The app started with `setState` and was refactored to **Cubit**: login, registration and chat each have their own Cubit, and a `BlocObserver` logs every state change.
